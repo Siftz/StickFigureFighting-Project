@@ -5,7 +5,7 @@ public class Boss : Character
     public int HealCooldown { get; set; }
     public int MiseryStrikeCooldown { get; set; }
 
-    public Boss(int posX, int posY) : base("Boss", "2-handed sword", 45, 6, posX, posY) { }
+    public Boss(int posX, int posY) : base("Boss", "2-handed sword", 40, 4, posX, posY) { }
 
     public override void DisplayCharacter()
     {
@@ -14,16 +14,16 @@ public class Boss : Character
 
     public override void Draw()
     {
+        Console.SetCursorPosition(PositionX, PositionY - 2);
+        Console.WriteLine("  O ");
+        Console.SetCursorPosition(PositionX, PositionY - 1);
+        Console.WriteLine(" /|\\ ");
         Console.SetCursorPosition(PositionX, PositionY);
-        Console.WriteLine(" O ");
+        Console.WriteLine("/ | \\ ");
         Console.SetCursorPosition(PositionX, PositionY + 1);
-        Console.WriteLine("/|\\ ");
+        Console.WriteLine("  | ");
         Console.SetCursorPosition(PositionX, PositionY + 2);
-        Console.WriteLine("/ \\ ");
-        Console.SetCursorPosition(PositionX, PositionY + 3);
-        Console.WriteLine(" | ");
-        Console.SetCursorPosition(PositionX, PositionY + 4);
-        Console.WriteLine("/ \\");
+        Console.WriteLine(" / \\");
     }
 
     public void Attack(Character target)
@@ -37,7 +37,7 @@ public class Boss : Character
     public void Heal()
     {
         Console.WriteLine($"{ClassName} heals!");
-        Health += Health / 2; // heal for 10%
+        Health += Health / 1; // heal for 10%
         Console.WriteLine($"{ClassName} now has {Health} health.");
         HealCooldown = 3;
     }

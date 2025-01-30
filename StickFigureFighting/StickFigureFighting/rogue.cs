@@ -2,7 +2,7 @@ namespace StickFigureFighting;
 
 class Rogue : Character
 {
-    public Rogue(int posX, int posY) : base("Rogue", "2 daggers", 25, 3, posX, posY) { }
+    public Rogue(int posX, int posY) : base("Rogue", "2 daggers", 50, 3, posX, posY) { }
 
     public override void DisplayCharacter()
     {

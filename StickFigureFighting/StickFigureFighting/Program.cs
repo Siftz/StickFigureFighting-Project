@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Text;
 namespace StickFigureFighting;
 
-class Program
+abstract class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.UTF8; //wanted to add unicode
+        
         ShowWelcomeScreen();
         Console.Clear(); // Clear the welcome screen
 
@@ -26,8 +29,8 @@ class Program
         Console.WriteLine("Press any key to start...");
         Console.ReadKey(true); // Wait for the user to press a key
     }
-    
-    static Character ChooseCharacterClass() //user character choice
+
+    public static Character ChooseCharacterClass() //user character choice
     {
         Console.WriteLine("Choose your class:");
         Console.WriteLine("1. Berserker (2-handed axe)");
@@ -56,19 +59,21 @@ class Program
         Console.SetCursorPosition(x, y + 1);
         Console.WriteLine("/|\\");
         Console.SetCursorPosition(x, y + 2);
+        Console.WriteLine(" | ");
+        Console.SetCursorPosition(x, y + 3);
         Console.WriteLine("/ \\");
     }
     static void DrawBoss(int x, int y) //Boss stick figure
     {
+        Console.SetCursorPosition(x, y - 2);
+        Console.WriteLine("  O ");
+        Console.SetCursorPosition(x, y - 1);
+        Console.WriteLine(" /|\\ ");
         Console.SetCursorPosition(x, y);
-        Console.WriteLine(" O ");
+        Console.WriteLine("/ | \\ ");
         Console.SetCursorPosition(x, y + 1);
-        Console.WriteLine("/|\\ ");
+        Console.WriteLine("  | ");
         Console.SetCursorPosition(x, y + 2);
-        Console.WriteLine("/ \\ ");
-        Console.SetCursorPosition(x, y + 3);
-        Console.WriteLine(" | ");
-        Console.SetCursorPosition(x, y + 4);
-        Console.WriteLine("/ \\");
+        Console.WriteLine(" / \\");
     }
 }

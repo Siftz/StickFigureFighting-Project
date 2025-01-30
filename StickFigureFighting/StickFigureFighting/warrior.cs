@@ -2,7 +2,7 @@ namespace StickFigureFighting;
 
 class Warrior : Character
 {
-    public Warrior(int posX, int posY) : base("Warrior", "shield and sword", 30, 4, posX, posY) { }
+    public Warrior(int posX, int posY) : base("Warrior", "shield and sword", 55, 4, posX, posY) { }
 
     public override void DisplayCharacter()
     {
