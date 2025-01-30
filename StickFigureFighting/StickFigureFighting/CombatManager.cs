@@ -20,28 +20,35 @@ public class CombatManager
         bool gameRunning = true;
         while (gameRunning)
         {
-            Console.Clear();
+            Console.Clear(); //clear console at the start of loop
             DrawCharacters();
             // Turn-based combat
-            playerCombatManager.PlayerTurn();
-            if (boss.Health <= 0)
+            playerCombatManager.PlayerTurn(); //players turn
+            if (boss.Health <= 0) //check to see if boss is defeated
             {
                 Console.WriteLine("You defeated the boss!");
                 gameRunning = false;
                 break;
             }
             
+            // Pause to allow the player to see the results
+            Console.WriteLine("\nPress any key for the boss's turn...");
+            Console.ReadKey();
+
+            // Clear console before the boss's turn
             Console.Clear();
             DrawCharacters();
 
             bossCombatManager.BossTurn();
-            if (player.Health <= 0)
+            if (player.Health <= 0) //check if player is dead
             {
                 Console.WriteLine("You were defeated by the boss...");
                 gameRunning = false;
                 break;
             }
-
+            // Pause to allow the player to see the results
+            Console.WriteLine("\nPress any key to continue...");
+            Console.ReadKey();
             // Reduce cooldowns
             ReduceCooldowns();
         }

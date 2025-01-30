@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lakin\\repos\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj": {}
+    "C:\\Users\\lakin\\repos\\StickFigureFighting-Project\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lakin\\repos\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj": {
+    "C:\\Users\\lakin\\repos\\StickFigureFighting-Project\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lakin\\repos\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj",
+        "projectUniqueName": "C:\\Users\\lakin\\repos\\StickFigureFighting-Project\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj",
         "projectName": "StickFigureFighting",
-        "projectPath": "C:\\Users\\lakin\\repos\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj",
+        "projectPath": "C:\\Users\\lakin\\repos\\StickFigureFighting-Project\\StickFigureFighting\\StickFigureFighting\\StickFigureFighting.csproj",
         "packagesPath": "C:\\Users\\lakin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lakin\\repos\\StickFigureFighting\\StickFigureFighting\\obj\\",
+        "outputPath": "C:\\Users\\lakin\\repos\\StickFigureFighting-Project\\StickFigureFighting\\StickFigureFighting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
