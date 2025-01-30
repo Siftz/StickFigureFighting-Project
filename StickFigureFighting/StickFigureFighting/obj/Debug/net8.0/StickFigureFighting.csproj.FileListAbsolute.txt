@@ -1,0 +1,14 @@
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\bin\Debug\net8.0\StickFigureFighting.exe
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\bin\Debug\net8.0\StickFigureFighting.deps.json
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\bin\Debug\net8.0\StickFigureFighting.runtimeconfig.json
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\bin\Debug\net8.0\StickFigureFighting.dll
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\bin\Debug\net8.0\StickFigureFighting.pdb
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.AssemblyInfoInputs.cache
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.AssemblyInfo.cs
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.csproj.CoreCompileInputs.cache
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.dll
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\refint\StickFigureFighting.dll
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.pdb
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\StickFigureFighting.genruntimeconfig.cache
+C:\Users\lakin\repos\StickFigureFighting\StickFigureFighting\obj\Debug\net8.0\ref\StickFigureFighting.dll

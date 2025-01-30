@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StickFigureFighting/1.0.0": {
+        "runtime": {
+          "StickFigureFighting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StickFigureFighting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
